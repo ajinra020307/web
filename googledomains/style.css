@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+*{
+    font-family: 'Open Sans'
+}
+
+body{
+    margin: 0;
+    padding: 0
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+
+    align-items: center;
+    margin:0 20px 0 20px;
+}
+.brand{
+    display:flex;
+}
+.brand h1{
+    font-weight:lighter;
+    margin-left:10px;
+}
+.menu{
+    display:flex;
+    align-items:center;
+}
+.menuitems{
+    margin-left:30px;
+}
+.menuitems span{
+    margin-right:20px;
+}
+.header button{
+
+    border:none;
+    background:#1A73E8;
+    padding:10px 20px 10px 20px;
+    color:white;
+  
+}
+.showcase{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: 0 200px 100px 200px;
+}
+
+.banner img{
+    width: 100%;
+}
+.lead h1{
+    font-size:70px;
+    font-weight:lighter; 
+    margin:0;
+}
+.lead h3{
+    font-size:30px;font-weight: lighter;
+    margin-bottom: 50px;
+} 
+.lead div input{
+    padding:15px 20px;
+    width: 400px;
+    font-size:18px;
+} 
+.lead div{
+    display:flex;
+   
+}
+
+.lead div button{
+    background:#1A73E8;
+    border :none;
+    padding:10px  20px;
+    color:white;
+    font-size:18px;
+
+}
+.lead h5{
+    font-size:16px;
+    color:cornflowerblue;
+}
+   
+.discover{
+    margin: 0 200px;
+
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    align-items:end;
+}
+
+#discoverimg{
+    height: 500px;
+}
+.discover h1{
+    font-size:30px;
+    font-weight: lighter;
+}
+.discover h3{
+    font-weight: lighter;
+}
+.features{
+    margin: 50px 200px 0 200px;
+    display: flex;
+}
+
+.features div{
+  margin-right: 150px;
+}
+.table{
+    display: flex; 
+    justify-content:center;
+}
+.table div{
+    width:250px;
+    border:1px solid rgba(0,0,0,0.1);
+    margin:15px; 
+    padding:15px;
+}
+.table div img{
+    width:150px;
+}
+.tablecontainer{
+    margin:  0 200px;
+   
+}
+.tablecontainer h1{
+    text-align:center;
+}
+.table div h4{
+    font-size:14px;
+    font-weight:lighter;
+}
+.table div h3{
+    font-size:18px;
+    font-weight:lighter;
+}
+.table div h5{
+    font-size:14px;
+    font-weight:lighter;
+    color:cornflowerblue;
+}
