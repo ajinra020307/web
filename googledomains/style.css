@@ -117,7 +117,15 @@ body{
     border:1px solid rgba(0,0,0,0.1);
     margin:15px; 
     padding:15px;
+
 }
+
+.table div:hover{
+
+    box-shadow: 1px 1px  10px rgba(0,0,0,0.4);
+
+}
+
 .table div img{
     width:150px;
 }
@@ -140,4 +148,46 @@ body{
     font-size:14px;
     font-weight:lighter;
     color:cornflowerblue;
+}
+.lowbanner
+{
+    display:flex;
+    margin:120px 200px 10px 200px;
+    justify-content: center;
+
+}
+.lowbanner >div p{
+    margin-bottom: 50px;
+    font-size:22px;
+}
+.lowbanner >div h1{
+    font-size:35px;
+    font-weight:lighter;
+}
+.imgirl{
+    width:600px;
+}
+.domain div img{
+    width:70px;
+}
+.domain > div{
+    display:flex;
+    border:1px solid rgba(0, 0, 0, 0.1);
+    width:400px;
+    margin-bottom:15px;
+    padding:10px 20px 10px 20px;
+    
+
+}
+.domain > div:hover{
+    box-shadow: 1px 1px  10px rgba(0,0,0,0.2);
+}
+.domain div div h3{
+    font-size:12px;
+    font-weight:lighter;
+}
+.domain div div h2{
+    font-size:18px;
+    font-weight:lighter;
+    
 }

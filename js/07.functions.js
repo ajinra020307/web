@@ -84,3 +84,6 @@ function findthebmi(h, w) {
 }
 
 findthebmi(167, 63)
+
+findthebmi(123,32)
+
