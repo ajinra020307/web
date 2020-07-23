@@ -20,6 +20,7 @@ function print2(message) {
 }
 
 print2("iam from print2")
+
 print2("iam ajin")
 
 // function accepts two inputs
@@ -31,6 +32,7 @@ function findsum(x, y) {
 }
 
 findsum(100, 100)
+
 findsum(400, 500)
 
 // write a function which takes one input 
