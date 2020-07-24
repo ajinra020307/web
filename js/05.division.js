@@ -9,7 +9,7 @@ console.log(div)
 let b = x / y
 let a = 200
 
-let sum = x + b
+let sum = a + b
 console.log(sum)
 let c = x / y
 let d = x + b
