@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+        .img_container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+        }
+
+        .img_container img{
+            height: 120px;
+            width: 120px;
+            margin: 20px;
+            box-shadow: 1px 1px 20px rgba(0,0,0,0.1);
+            padding:10px
+        }
+    </style>
+
+  </head>
+  <body>
+
+
+    <div class="img_container">
+
+    </div>
+
+    <script>
+
+      let url = "https://api.github.com/emojis";
+
+      fetch(url)
+
+        .then((res) => res.json())
+
+        .then((resData) => {
+         
+          for (let key in resData) {
+
+           let img = document.createElement("img");
+
+            img.src = resData[key]
+
+            document.querySelector('.img_container').appendChild(img);
+          }
+
+        });
+
+    </script>
+  </body>
+</html>
